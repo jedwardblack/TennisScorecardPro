@@ -1,0 +1,20 @@
+Players
+playerID -> (userName, fName, lName, gender)
+
+Games
+gameID -> (numPointWonByA, numPointsWonByB, playerB, playerA, court, winningTeam)
+
+Courts
+courtID -> (courtName, surfaceMaterial, surfaceColor, size, locationLong, locationLat)
+
+PlayerServes
+playerServePlayerID -> playerServeServeID
+playerServeServeID -> playerServePlayerID
+
+Serves
+serveID -> speed
+
+GamesWon
+gamesWinID -> (gamesWonGameID, gamesWonPlayerID)
+
+Schema is in BCNF.
