@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE FUNCTION `games_won'(playerID int) 
+CREATE FUNCTION `games_won` (playerID int) 
 RETURNS int(11)
 BEGIN
  DECLARE numWins INT;
